@@ -53,9 +53,11 @@ npm run dev
 
 This command simultaneously:
 -Starts json-server, which uses the src/services/data.json file as an API, on port 3000.
+
 -Starts Vite, which provides a development environment
 
 Open http://localhost:5173 to view the application.
+
 The API is available at http://localhost:3000.
 
 # API Description
@@ -76,14 +78,30 @@ json-server automatically generates routes based on the structure of the data.js
 {
   "data": [
     { "id": 1, "reviews": 163, "mark": 4.3 },
-  ]
+  ],
+  "messages": []
 }
 ```
 
 ## Automatically generated routes:
 
 Get all records: GET /data
+
 Get record by ID: GET /data/1
+
 Add new record: POST /data
+
 Update record: PUT /data/1 or PATCH /data/1
+
 Delete record: DELETE /data/1
+
+
+Get all records: GET /messages
+
+Get record by ID: GET /messages/1
+
+Add new record: POST /messages
+
+Update record: PUT /messages/1 or PATCH /messages/1
+
+Delete record: DELETE /messages/1

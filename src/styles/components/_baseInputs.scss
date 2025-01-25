@@ -1,0 +1,23 @@
+@mixin error-container {
+  .error {
+    position: absolute;
+    top: 97%;
+  }
+  .text-error {
+    font-size: 12px;
+    color: $red;
+  }
+}
+
+@mixin input {
+  input {
+    position: relative;
+    padding: 16px 10px 8px;
+    font-weight: 500;
+    font-size: 1em;
+  }
+
+  .invalid {
+    border-bottom: 1px solid $red;
+  }
+}

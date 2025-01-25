@@ -1,0 +1,63 @@
+@mixin review-container {
+  .review {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: $grey 0px 7px 29px 0px;
+    border-radius: 8px;
+    padding: 32px 30px;
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  .review-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    @media screen and (max-width: 1367px) {
+      gap: 54px;
+    }
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    @media screen and (max-width: 540px) {
+      gap: 20px;
+    }
+  }
+
+  .content-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .info {
+    gap: 22px;
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  }
+
+  .content-stars {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+
+  .content-btns {
+    display: flex;
+    gap: 10px;
+    @media screen and (max-width: 540px) {
+      gap: 11px;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+}

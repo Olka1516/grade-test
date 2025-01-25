@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "reviews": 163,
+      "mark": 4.3
+    },
+    {
+      "id": 2,
+      "reviews": 165,
+      "mark": 3.7
+    },
+    {
+      "id": 3,
+      "reviews": 188,
+      "mark": 2.4
+    },
+    {
+      "id": 4,
+      "reviews": 183,
+      "mark": 0.4
+    },
+    {
+      "id": 5,
+      "reviews": 161,
+      "mark": 2.2
+    },
+    {
+      "id": 6,
+      "reviews": 94,
+      "mark": 1.4
+    },
+    {
+      "id": 7,
+      "reviews": 214,
+      "mark": 4.9
+    },
+    {
+      "id": 8,
+      "reviews": 442,
+      "mark": 2.1
+    }
+  ],
+  "messages": []
+}

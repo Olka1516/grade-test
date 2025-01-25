@@ -1,0 +1,14 @@
+@mixin main-container {
+  .container {
+    padding-block: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .main-lang {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+}

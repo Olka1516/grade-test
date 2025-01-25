@@ -1,0 +1,35 @@
+@import "./themes";
+@import "./general/container";
+@import "./general/buttons";
+@import "./components/baseReview";
+@import "./components/baseLoading";
+@import "./components/baseModal";
+@import "./components/baseInputs";
+@import "./views/mainPage";
+
+@mixin main-page {
+  @include border-button;
+  @include container;
+  @include main-container;
+}
+
+@mixin review {
+  @include border-button;
+  @include review-container;
+}
+
+@mixin loading {
+  @include loading-component;
+}
+
+@mixin modal {
+  @include modal-component;
+}
+
+@mixin errors {
+  @include error-container;
+}
+
+@mixin field {
+  @include input;
+}
